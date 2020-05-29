@@ -1,4 +1,4 @@
-package com.sagar.spring.springcoreadvance.autowiring;
+package com.sagar.spring.springcoreadvance.autowiring.annotation;
 
 public class Address {
 	private int hno;
