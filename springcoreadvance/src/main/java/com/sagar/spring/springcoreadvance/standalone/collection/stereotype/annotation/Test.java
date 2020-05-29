@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/sagar/spring/springcoreadvance/standalone/collection/stereotype/annotation/instructorconfig.xml"
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/sagar/spring/springcoreadvance/standalone/collection/stereotype/annotation/insdustryconfig.xml"
 );
 		Instructor instructor = (Instructor) context.getBean("instructor");
 		System.out.println(instructor);
