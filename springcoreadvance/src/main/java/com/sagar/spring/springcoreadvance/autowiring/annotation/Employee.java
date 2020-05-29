@@ -5,13 +5,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Employee {
 	@Autowired(required = false)
-	@Qualifier("address2")
+	@Qualifier("address1")
 	private Address address;
 	
-	public Employee(Address address) {
-		this.address = address;
-	}
-
+	
 	public Address getAddress() {
 		return address;
 	}
